@@ -55,7 +55,7 @@ function Firstscreen() {
     </div>
    <div id='btnparent' className="bt text-center">
 
-    <button  id='btnn'  class="bg-green-600 text-center invisible hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
+    <button  id='btnn'  className="bg-green-600 text-center invisible hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
     SUBMIT
   </button>
    </div>
