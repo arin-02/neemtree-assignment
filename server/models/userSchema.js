@@ -5,44 +5,44 @@ const schema = mongoose.Schema
 const userSchema = new schema({
     name: {
         type: String,
-        required: true
+        // required: true
     },
     email: {
         type: String,
-        required: true,
+        // required: true,
         unique: true
     },
     mobile: {
         type: Number,
-        required: true
+        // required: true
     },
     dob: {
         type: String,
-        required: true
+        // required: true
     },
     workExp: {
         type: String,
-        required: true
+        // required: true
     }, 
     resumeTitle: {
         type: String,
-        required: true
+        // required: true
     },
     currentLocation: {
         type: String,
-        required: true
+        // required: true
     },
     postalAddress: {
         type: String,
-        required: true
+        // required: true
     },
     currentEmployer: {
         type: String,
-        required: true
+        // required: true
     },
     currentDesignation: {
         type: String,
-        required: true
+        // required: true
     },
 },
 { timestamps: true }
